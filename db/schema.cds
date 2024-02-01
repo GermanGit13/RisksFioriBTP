@@ -32,3 +32,8 @@ entity Mitigations : managed
     timeline : String(100);
     risks : Association to many Risks on risks.mitigations = $self;
 }
+
+entity Entity1
+{
+    key ID : UUID;
+}
